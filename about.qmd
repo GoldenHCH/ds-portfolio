@@ -2,4 +2,37 @@
 title: "About"
 ---
 
-About this site
+# About Me
+
+![Headshot of Golden Huang](headshot.jpg)
+
+## Introduction
+Hi! I’m **Golden Huang**, an undergraduate student at **Brigham Young University** studying **Statistics with an emphasis in Data Science**. I’m interested in applying data science, machine learning, and statistical modeling to real-world problems, especially in education, technology, and decision-making systems. I enjoy building things that turn data into actionable insight.
+
+## Education
+- **Brigham Young University (BYU)**  
+  **B.S. in Statistics**  
+  Expected graduation: **2028**
+
+## Experience
+- **Undergraduate Research Assistant — BYU**  
+  Conduct research at the intersection of AI and education, focusing on personalized learning systems.
+
+- **AI in Education Project (EduQuest)**  
+  Working on a research-to-tech project that explores goal-driven, project-based learning supported by AI-generated personalized assignments.
+
+- **Student Leadership & Event Organization**  
+  Organized and led large-scale cultural and academic events through student organizations, coordinating logistics, marketing, and cross-team collaboration.
+
+## Skills
+- **Programming:** Python, R, JavaScript 
+- **Data Science:** Pandas, NumPy, data visualization, statistical modeling  
+- **Tools:** Git, GitHub, Jupyter Notebooks, Markdown
+
+## Get to Know Me
+Outside of academics, I enjoy **strength training, kickboxing, and exploring productivity systems**. I’m also interested in entrepreneurship, education reform, and building tools that help people learn more effectively.
+
+---
+
+*This portfolio showcases my learning progress and projects completed during my data science studies.*
+

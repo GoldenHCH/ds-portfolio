@@ -4,13 +4,55 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Headshot of Golden Huang\n\n\n\n\nHi! I’m Golden Huang, an undergraduate student at Brigham Young University studying Statistics with an emphasis in Data Science. I’m interested in applying data science, machine learning, and statistical modeling to real-world problems, especially in education, technology, and decision-making systems. I enjoy building things that turn data into actionable insight.\n\n\n\n\nBrigham Young University (BYU)\nB.S. in Statistics (Data Science emphasis)\nExpected graduation: 2029\n\n\n\n\n\nUndergraduate Research Assistant — BYU\nConduct research at the intersection of data science and education, focusing on personalized learning systems and applied analytics.\nAI in Education Project (EduQuest)\nWorking on a research-to-tech project that explores goal-driven, project-based learning supported by AI-generated personalized assignments.\nStudent Leadership & Event Organization\nOrganized and led large-scale cultural and academic events through student organizations, coordinating logistics, marketing, and cross-team collaboration.\n\n\n\n\n\nProgramming: Python, R, SQL\n\nData Science: Pandas, NumPy, data visualization, statistical modeling\n\nTools: Git, GitHub, Jupyter Notebooks, Markdown\n\nOther: Technical writing, teamwork, communication, leadership\n\n\n\n\nOutside of academics, I enjoy strength training, kickboxing, and exploring productivity systems. I’m also interested in entrepreneurship, education reform, and building tools that help people learn more effectively.\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+  },
+  {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About",
+    "section": "",
+    "text": "Hi! I’m Golden Huang, an undergraduate student at Brigham Young University studying Statistics with an emphasis in Data Science. I’m interested in applying data science, machine learning, and statistical modeling to real-world problems, especially in education, technology, and decision-making systems. I enjoy building things that turn data into actionable insight."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Brigham Young University (BYU)\nB.S. in Statistics (Data Science emphasis)\nExpected graduation: 2029"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "",
+    "text": "Undergraduate Research Assistant — BYU\nConduct research at the intersection of data science and education, focusing on personalized learning systems and applied analytics.\nAI in Education Project (EduQuest)\nWorking on a research-to-tech project that explores goal-driven, project-based learning supported by AI-generated personalized assignments.\nStudent Leadership & Event Organization\nOrganized and led large-scale cultural and academic events through student organizations, coordinating logistics, marketing, and cross-team collaboration."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "",
+    "text": "Programming: Python, R, SQL\n\nData Science: Pandas, NumPy, data visualization, statistical modeling\n\nTools: Git, GitHub, Jupyter Notebooks, Markdown\n\nOther: Technical writing, teamwork, communication, leadership"
+  },
+  {
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
+    "title": "About",
+    "section": "",
+    "text": "Outside of academics, I enjoy strength training, kickboxing, and exploring productivity systems. I’m also interested in entrepreneurship, education reform, and building tools that help people learn more effectively.\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Golden Huang – STAT 386 Portfolio",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m a Statistics student at BYU taking STAT 386: Data Science Process.\nThis site is my course portfolio, where I share: - Data analysis projects - Tutorial-style blog posts - My final project for the course\nUse the navigation bar to explore my work."
+  },
+  {
+    "objectID": "index.html#hi-im-golden",
+    "href": "index.html#hi-im-golden",
+    "title": "Golden Huang – STAT 386 Portfolio",
+    "section": "",
+    "text": "I’m a Statistics student at BYU taking STAT 386: Data Science Process.\nThis site is my course portfolio, where I share: - Data analysis projects - Tutorial-style blog posts - My final project for the course\nUse the navigation bar to explore my work."
   }
 ]
