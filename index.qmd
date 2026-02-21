@@ -13,3 +13,9 @@ This site is my course portfolio, where I share:
 
 Use the navigation bar to explore my work.
 
+## Latest Tutorial
+
+**[From Raw Data to Insight: A Python Data Analysis Workflow](posts/python-data-workflow-tutorial.qmd)**
+
+A repeatable Python workflow for exploratory data analysis — loading data, cleaning, summarizing, and visualizing with `pandas`, `matplotlib`, and `seaborn`.
+

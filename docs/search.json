@@ -1,45 +1,31 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
     "section": "",
-    "text": "Headshot of Golden Huang\n\n\n\n\nHi! I’m Golden Huang, an undergraduate student at Brigham Young University studying Statistics with an emphasis in Data Science. I’m interested in applying data science, machine learning, and statistical modeling to real-world problems, especially in education, technology, and decision-making systems. I enjoy building things that turn data into actionable insight.\n\n\n\n\nBrigham Young University (BYU)\nB.S. in Statistics\nExpected graduation: 2028\n\n\n\n\n\nUndergraduate Research Assistant — BYU\nConduct research at the intersection of AI and education, focusing on personalized learning systems.\nAI in Education Project (EduQuest)\nWorking on a research-to-tech project that explores goal-driven, project-based learning supported by AI-generated personalized assignments.\nStudent Leadership & Event Organization\nOrganized and led large-scale cultural and academic events through student organizations, coordinating logistics, marketing, and cross-team collaboration.\n\n\n\n\n\nProgramming: Python, R, JavaScript\nData Science: Pandas, NumPy, data visualization, statistical modeling\n\nTools: Git, GitHub, Jupyter Notebooks, Markdown\n\n\n\n\nOutside of academics, I enjoy strength training, kickboxing, and exploring productivity systems. I’m also interested in entrepreneurship, education reform, and building tools that help people learn more effectively.\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "text": "From Raw Data to Insight: A Python Data Analysis Workflow\n\n\n\npython\n\ndata analysis\n\ntutorial\n\n\n\n\n\n\n\n\n\nFeb 20, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html#introduction",
-    "href": "about.html#introduction",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Golden Huang – STAT 386 Portfolio",
     "section": "",
-    "text": "Hi! I’m Golden Huang, an undergraduate student at Brigham Young University studying Statistics with an emphasis in Data Science. I’m interested in applying data science, machine learning, and statistical modeling to real-world problems, especially in education, technology, and decision-making systems. I enjoy building things that turn data into actionable insight."
+    "text": "I’m a Statistics student at BYU taking STAT 386: Data Science Process.\nThis site is my course portfolio, where I share: - Data analysis projects - Tutorial-style blog posts - My final project for the course\nUse the navigation bar to explore my work."
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
+    "objectID": "index.html#hi-im-golden",
+    "href": "index.html#hi-im-golden",
+    "title": "Golden Huang – STAT 386 Portfolio",
     "section": "",
-    "text": "Brigham Young University (BYU)\nB.S. in Statistics\nExpected graduation: 2028"
+    "text": "I’m a Statistics student at BYU taking STAT 386: Data Science Process.\nThis site is my course portfolio, where I share: - Data analysis projects - Tutorial-style blog posts - My final project for the course\nUse the navigation bar to explore my work."
   },
   {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About",
-    "section": "",
-    "text": "Undergraduate Research Assistant — BYU\nConduct research at the intersection of AI and education, focusing on personalized learning systems.\nAI in Education Project (EduQuest)\nWorking on a research-to-tech project that explores goal-driven, project-based learning supported by AI-generated personalized assignments.\nStudent Leadership & Event Organization\nOrganized and led large-scale cultural and academic events through student organizations, coordinating logistics, marketing, and cross-team collaboration."
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About",
-    "section": "",
-    "text": "Programming: Python, R, JavaScript\nData Science: Pandas, NumPy, data visualization, statistical modeling\n\nTools: Git, GitHub, Jupyter Notebooks, Markdown"
-  },
-  {
-    "objectID": "about.html#get-to-know-me",
-    "href": "about.html#get-to-know-me",
-    "title": "About",
-    "section": "",
-    "text": "Outside of academics, I enjoy strength training, kickboxing, and exploring productivity systems. I’m also interested in entrepreneurship, education reform, and building tools that help people learn more effectively.\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "objectID": "index.html#latest-tutorial",
+    "href": "index.html#latest-tutorial",
+    "title": "Golden Huang – STAT 386 Portfolio",
+    "section": "Latest Tutorial",
+    "text": "Latest Tutorial\nFrom Raw Data to Insight: A Python Data Analysis Workflow\nA repeatable Python workflow for exploratory data analysis — loading data, cleaning, summarizing, and visualizing with pandas, matplotlib, and seaborn."
   },
   {
     "objectID": "posts/python-data-workflow-tutorial.html",
@@ -98,17 +84,45 @@
     "text": "Conclusion and Next Steps\nYou now have a complete, repeatable workflow for Python data analysis: load → inspect → clean → summarize → visualize. Each step builds on the last, and the habits you establish here—checking data shape on load, documenting cleaning decisions, labeling every plot—compound into cleaner, more trustworthy analyses over time.\nThis tutorial covers the exploratory phase, but it’s only the beginning. Natural next steps include:\n\nBuilding statistical models with scikit-learn once you understand your features\nAutomating reports by embedding this workflow in a Quarto notebook\nPulling data from APIs or databases instead of local files using requests or sqlalchemy\n\nIf you try this workflow on your own dataset, I’d love to hear what you find—what patterns showed up, what cleaning challenges you hit, or where this template fell short. Share your experience or questions in the comments, or reach out directly. The best way to get better at data analysis is to keep doing it.\n\nThis tutorial is part of my STAT 386 Data Science Process portfolio at BYU."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Golden Huang – STAT 386 Portfolio",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "I’m a Statistics student at BYU taking STAT 386: Data Science Process.\nThis site is my course portfolio, where I share: - Data analysis projects - Tutorial-style blog posts - My final project for the course\nUse the navigation bar to explore my work."
+    "text": "Headshot of Golden Huang\n\n\n\n\nHi! I’m Golden Huang, an undergraduate student at Brigham Young University studying Statistics with an emphasis in Data Science. I’m interested in applying data science, machine learning, and statistical modeling to real-world problems, especially in education, technology, and decision-making systems. I enjoy building things that turn data into actionable insight.\n\n\n\n\nBrigham Young University (BYU)\nB.S. in Statistics\nExpected graduation: 2028\n\n\n\n\n\nUndergraduate Research Assistant — BYU\nConduct research at the intersection of AI and education, focusing on personalized learning systems.\nAI in Education Project (EduQuest)\nWorking on a research-to-tech project that explores goal-driven, project-based learning supported by AI-generated personalized assignments.\nStudent Leadership & Event Organization\nOrganized and led large-scale cultural and academic events through student organizations, coordinating logistics, marketing, and cross-team collaboration.\n\n\n\n\n\nProgramming: Python, R, JavaScript\nData Science: Pandas, NumPy, data visualization, statistical modeling\n\nTools: Git, GitHub, Jupyter Notebooks, Markdown\n\n\n\n\nOutside of academics, I enjoy strength training, kickboxing, and exploring productivity systems. I’m also interested in entrepreneurship, education reform, and building tools that help people learn more effectively.\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
-    "objectID": "index.html#hi-im-golden",
-    "href": "index.html#hi-im-golden",
-    "title": "Golden Huang – STAT 386 Portfolio",
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About",
     "section": "",
-    "text": "I’m a Statistics student at BYU taking STAT 386: Data Science Process.\nThis site is my course portfolio, where I share: - Data analysis projects - Tutorial-style blog posts - My final project for the course\nUse the navigation bar to explore my work."
+    "text": "Hi! I’m Golden Huang, an undergraduate student at Brigham Young University studying Statistics with an emphasis in Data Science. I’m interested in applying data science, machine learning, and statistical modeling to real-world problems, especially in education, technology, and decision-making systems. I enjoy building things that turn data into actionable insight."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Brigham Young University (BYU)\nB.S. in Statistics\nExpected graduation: 2028"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "",
+    "text": "Undergraduate Research Assistant — BYU\nConduct research at the intersection of AI and education, focusing on personalized learning systems.\nAI in Education Project (EduQuest)\nWorking on a research-to-tech project that explores goal-driven, project-based learning supported by AI-generated personalized assignments.\nStudent Leadership & Event Organization\nOrganized and led large-scale cultural and academic events through student organizations, coordinating logistics, marketing, and cross-team collaboration."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "",
+    "text": "Programming: Python, R, JavaScript\nData Science: Pandas, NumPy, data visualization, statistical modeling\n\nTools: Git, GitHub, Jupyter Notebooks, Markdown"
+  },
+  {
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
+    "title": "About",
+    "section": "",
+    "text": "Outside of academics, I enjoy strength training, kickboxing, and exploring productivity systems. I’m also interested in entrepreneurship, education reform, and building tools that help people learn more effectively.\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   }
 ]
