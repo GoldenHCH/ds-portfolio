@@ -1,0 +1,142 @@
+---
+title: "From Raw Data to Insight: A Python Data Analysis Workflow"
+date: 2026-02-20
+categories: [python, data analysis, tutorial]
+---
+
+## Introduction
+
+Every data science project starts the same way: you have a messy dataset and a question you want to answer. The gap between those two things is the data analysis workflow—the sequence of steps that takes you from raw numbers in a spreadsheet to a clear, communicable insight.
+
+In this tutorial, I'll walk you through a repeatable Python workflow for exploratory data analysis (EDA). We'll cover loading data, inspecting and cleaning it, computing summary statistics, and creating visualizations. By the end, you'll have a practical template you can apply to almost any dataset you encounter, whether it comes from a CSV file, an API, or a database export.
+
+The tools we'll use are `pandas` for data manipulation and `matplotlib` plus `seaborn` for visualization. If you've written any Python before, you'll find these libraries approachable, and the patterns we establish here transfer directly into more advanced machine learning pipelines later on.
+
+## Prerequisites
+
+Before running any code, make sure the following are in place.
+
+You should have Python 3.9 or newer installed. The quickest way to manage packages is with `pip` or a project-specific virtual environment. Install the required libraries with:
+
+```python
+# Install dependencies (run once in your terminal, not inside a script)
+# pip install pandas matplotlib seaborn
+```
+
+You'll also need a dataset. For this tutorial, we'll use the well-known Iris dataset, which ships with `seaborn` and requires no external download. The same steps apply to any tabular data you load from a local CSV.
+
+## Step 1: Load Your Data
+
+The first step is always getting data into Python. For a CSV file you've downloaded locally, use `pandas.read_csv`. For data bundled with a library like `seaborn`, use its built-in loader.
+
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load the Iris dataset (built into seaborn — no file needed)
+df = sns.load_dataset("iris")
+
+# Confirm it loaded correctly
+print(df.shape)   # (150, 5): 150 rows, 5 columns
+print(df.head())  # Preview first five rows
+```
+
+Loading the data is simple, but don't skip the `.shape` and `.head()` calls. These two lines tell you immediately whether the data arrived intact—correct number of rows, recognizable column names, and plausible values. Skipping them is how you end up debugging mysterious errors twenty steps later.
+
+## Step 2: Inspect and Clean the Data
+
+Raw data almost always has issues: missing values, wrong data types, inconsistent labels. A thorough inspection before any analysis saves significant time later.
+
+```python
+# Check data types and non-null counts
+print(df.info())
+
+# Count missing values in each column
+print(df.isnull().sum())
+
+# Get a feel for the range and distribution of numeric columns
+print(df.describe())
+```
+
+The `.info()` call is your first diagnostic. It shows you the column names, their data types, and how many non-null values exist. If a numeric column appears as `object` (Python string), that's a signal that something—a stray text value, a formatting character—is blocking type inference and needs to be fixed before you compute statistics.
+
+For the Iris dataset you'll find no missing values and clean types, but in real-world data you might drop rows with `df.dropna()`, fill gaps with `df.fillna()`, or cast a column with `df['column'] = df['column'].astype(float)`. Documenting every cleaning decision—even in a comment—keeps your analysis reproducible.
+
+## Step 3: Summarize the Data
+
+Summary statistics give you a numerical map of your dataset. The `.describe()` method returns the mean, standard deviation, min, max, and quartiles for every numeric column at once. For categorical columns, you'll want value counts.
+
+```python
+# Numeric summary
+print(df.describe().round(2))
+
+# Count observations per species
+print(df["species"].value_counts())
+
+# Grouped means: how do measurements differ by species?
+print(df.groupby("species").mean().round(2))
+```
+
+The grouped mean is where EDA gets interesting. Even this simple call reveals that setosa flowers have noticeably shorter and narrower petals than the other two species—a pattern that will jump out even more clearly once you plot it. This is the moment where data starts becoming insight.
+
+The table below summarizes the main `pandas` methods we've used and what each one tells you:
+
+| Method | What It Returns |
+|---|---|
+| `df.shape` | (rows, columns) — basic size check |
+| `df.info()` | Column names, dtypes, non-null counts |
+| `df.isnull().sum()` | Missing value count per column |
+| `df.describe()` | Count, mean, std, min, quartiles, max |
+| `df.value_counts()` | Frequency of each unique value |
+| `df.groupby().mean()` | Column means broken out by a category |
+
+## Step 4: Visualize the Data
+
+Numbers summarize; plots reveal. Even a simple scatter plot can expose relationships that a table of means hides. We'll use `seaborn`'s high-level functions to produce clean, labeled figures with minimal code.
+
+```python
+# Scatter plot: sepal length vs. petal length, colored by species
+sns.scatterplot(
+    data=df,
+    x="sepal_length",
+    y="petal_length",
+    hue="species",
+    palette="Set2"
+)
+plt.title("Sepal Length vs. Petal Length by Species")
+plt.xlabel("Sepal Length (cm)")
+plt.ylabel("Petal Length (cm)")
+plt.tight_layout()
+plt.savefig("scatter_iris.png", dpi=150)
+plt.show()
+```
+
+A few habits to build from the start: always label your axes, always include a title, and always call `plt.tight_layout()` before saving so axis labels don't get clipped. These take five extra seconds and make your figures look professional every time.
+
+For a quick overview of all numeric columns at once, a pair plot is invaluable:
+
+```python
+# Pair plot: all pairwise relationships, colored by species
+sns.pairplot(df, hue="species", palette="Set2")
+plt.savefig("pairplot_iris.png", dpi=150)
+plt.show()
+```
+
+The pair plot immediately shows that petal length and petal width are the strongest separators between species—information that would take several separate analyses to piece together from tables alone.
+
+## Conclusion and Next Steps
+
+You now have a complete, repeatable workflow for Python data analysis: load → inspect → clean → summarize → visualize. Each step builds on the last, and the habits you establish here—checking data shape on load, documenting cleaning decisions, labeling every plot—compound into cleaner, more trustworthy analyses over time.
+
+This tutorial covers the exploratory phase, but it's only the beginning. Natural next steps include:
+
+- Building statistical models with `scikit-learn` once you understand your features
+- Automating reports by embedding this workflow in a Quarto notebook
+- Pulling data from APIs or databases instead of local files using `requests` or `sqlalchemy`
+
+If you try this workflow on your own dataset, I'd love to hear what you find—what patterns showed up, what cleaning challenges you hit, or where this template fell short. Share your experience or questions in the comments, or reach out directly. The best way to get better at data analysis is to keep doing it.
+
+---
+
+*This tutorial is part of my STAT 386 Data Science Process portfolio at BYU.*
